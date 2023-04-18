@@ -1,0 +1,144 @@
+:root {
+  /* ### Primary */
+
+  --Purple: hsl(259, 100%, 65%);
+  --Lightred: hsl(0, 100%, 67%);
+
+  /* ### Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Offwhite: hsl(0, 0%, 94%);
+  --Lightgrey: hsl(0, 0%, 86%);
+  --Smokeygrey: hsl(0, 1%, 61%);
+  --Offblack: hsl(0, 0%, 8%);
+
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--Offwhite);
+}
+.container{
+  background-color: var(--White);
+  display: block;
+  width: 21rem;
+  margin: auto;
+  margin-top: 8rem;
+  padding: 3rem;
+  border: 1px solid var(--white);
+  border-radius: 1rem;
+  border-bottom-right-radius: 8rem;
+}
+.form{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.form > *{
+  flex: 1;
+  max-width: 6rem;
+  word-wrap: break-word;
+  
+}
+.form h4{
+  color: var(--Smokeygrey);
+  margin-bottom: 0.5rem;
+}
+input {
+  font-weight: 600;
+  font-size: 1.0rem;
+  padding-left: 0.8rem;
+  width: 5.4rem;
+  height: 2.6rem;   
+  border : 1px solid var(--Lightgrey);
+  margin-right: 1.5rem;
+  border-radius: 0.4rem;
+  outline-color: var(--Purple);
+}
+input:hover {
+ border: 1px solid  var(--Purple);
+ cursor: pointer;
+ 
+}
+input:active {
+  border: 1px solid  var(--Purple);
+  cursor: pointer;
+
+}
+.warning{
+  font-size: 0.75rem;
+  color: var(--Lightred);
+  font-style: italic;
+  font-weight: 400;
+  /*visibility: hidden;*/
+}
+hr{
+  width: 23%;
+  height: 0.1%;
+  background-color: var(--offwhite);
+  position: absolute;
+  transform: translateY(2rem);
+  z-index: 2;
+  opacity: 0.7;
+}
+button{
+  position: relative;
+  left: 20rem;
+  top: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-style: none;
+  border-radius: 50%;
+  z-index: 2;
+}
+button{
+  background-color: var(--Purple);
+  background-image: url('img/icon-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+button:hover{
+  background-color: var(--Offblack);
+}
+.flex{
+  display: flex;
+  gap: 1rem;
+}
+span{
+  color: var(--Purple);
+  font-size: 2.7rem;
+  margin-bottom: 0rem;
+  font-weight: 800;
+  font-style: italic;
+}
+p{
+  color: var(--Offblack);
+  font-size: 2.7rem;
+  font-family: 'poppins' sans-serif;
+  font-weight: 900;
+  font-style: oblique;
+}
+footer{
+  text-align: center;
+  margin: 1rem;
+}
+a:link {
+ text-decoration: none;
+ color: var(--Purple);
+}
+footer a:visited {
+ text-decoration: none;
+ color: var(--purple);
+}
+footer a:hover {
+ text-decoration: underline;
+ color: var(--Offblack);
+}
+footer a:active {
+ text-decoration: underline;
+ color: var(--Lightred);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Eczar&family=Inter:wght@500&family=Lexend+Deca:wght@500&family=Outfit&family=Poppins:wght@500&family=Red+Hat+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>AGE CALCULATOR APP</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header>
+          <div>
+            <form action="" class="form">
+              <div class="day">
+                <h4>Day</h4>
+                <input type="number" name="" id="days"  placeholder="DD">
+                <p id="day-error" class="warning">
+                  
+                </p>
+              </div>
+              <div class="month" >
+                <h4>Month</h4>
+                <input type="number" name="" id="months" min="1" max="12" placeholder="MM
+                ">
+                <p id="month-error" class="warning">
+                  
+                </p>
+              </div>
+              <div class="year">
+                <h4>Year</h4>
+                <input type="number" name="" id="years" min="1900" max="2023" placeholder="YYYY">
+                <p id="year-error" class="warning">
+                
+                </p>
+              </div>
+          </div>
+        </header>
+  
+        <hr />
+  
+        <div>
+          <div class="btn">
+            <button class="submit-btn"></button>
+          </div>
+  
+          <div class="flex">
+            <span class="output-year">--</span>
+            <p>Years</p>
+          </div>
+  
+          <div class="flex">
+            <span class="output-month">--</span>
+            <p>Months</p>
+          </div>
+  
+          <div class="flex">
+            <span class="output-day">--</span>
+            <p>Days</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Beautifulone0" target="_blank">Beautifulone0</a>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
