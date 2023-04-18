@@ -1,0 +1,28 @@
+@media (max-width: 567px){
+  .container{
+    width: 65%;
+  }
+  input{
+    width: 80%;
+  }
+  span{
+    font-size: 1.75rem;
+  }
+  hr{
+    width: 70%;
+  }
+  button{
+    left: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  hr{
+    width: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  hr{
+    width: 25%;
+  }
+}
